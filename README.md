@@ -12,9 +12,9 @@ Spring-boot,rest-api,Jpa,H2,Java v.11
 
 ## Assumption:
 
-**first thing to do:** use first api for save to db.
+**first thing to do:** use first api for save log to db.
  Post request
- body contains all log.
+ Body contain all log.
 http://localhost:8081/api/log/addLogToDB
 
 **api for log level:** find in log according log level
@@ -33,11 +33,11 @@ examples:
 http://localhost:8081/api/log/searchingLogByLogMsg/Tomcat
 http://localhost:8081/api/log/searchingLogByLogMsg/detected 
 
-Open Issue:
-add log to DB:
-1.Size of string - too big  ( remove some line from log)
-2.instead for loop , use Stream in some cases.
 
+
+
+**about section task 4(optimaize my solution):** I think maybe choose another db like Cassandra DB or MongoDB
+(Big Data) 
 
 ## Authors
 
@@ -55,3 +55,4 @@ I am not afraid from challenge.
 On a personal level:
 I am a mother of 2 lovely little children:Lenny and Neil
 Love do be with my kids, learn and do SKI. :)
+
