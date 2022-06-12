@@ -33,26 +33,24 @@ examples:
 http://localhost:8081/api/log/searchingLogByLogMsg/Tomcat
 http://localhost:8081/api/log/searchingLogByLogMsg/detected 
 
-
-
+**api for filter combination:** 
+Get Request
+examples:
+http://localhost:8081/api/log/searchingLogAccordingChoices?loglevel=INFO&startlogtime=17:19:58&endlogtime=19:19:58&wordfrommsg=falling
 
 **about section task 4(optimaize my solution):** I think maybe choose another db like Cassandra DB or MongoDB
 (Big Data) 
-
 ## Authors
 
 - [@HenLevi](https://github.com/HenLevi?tab=repositories)
 
 
-
-
-
 ## 🚀 About Me
 I'm a full-stack developer.
+Looking for backend developer position.
 Love to learn and explore.
 I am not afraid from challenge.
 
 On a personal level:
 I am a mother of 2 lovely little children:Lenny and Neil
 Love do be with my kids, learn and do SKI. :)
-
